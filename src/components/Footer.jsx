@@ -5,11 +5,11 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 const MotionBox = motion(Box);
 
 function Footer() {
-    const bgColor = useColorModeValue("brand.secondary.50", "brand.secondary.900");
-    const textColor = useColorModeValue("brand.secondary.800", "brand.secondary.100");
-    const primaryColor = useColorModeValue("brand.primary.500", "brand.primary.300");
-    const accentColor = useColorModeValue("brand.accent.500", "brand.accent.300");
-    const borderColor = useColorModeValue("brand.secondary.200", "brand.secondary.700");
+    const bgColor = "gray.900";
+    const textColor = "gray.100";
+    const primaryColor = "blue.400";
+    const accentColor = "purple.400";
+    const borderColor = "blue.700";
 
     const socialLinks = [
         { icon: FaGithub, url: "https://github.com/joneirocha", label: "GitHub" },
