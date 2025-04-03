@@ -6,12 +6,12 @@ const MotionBox = motion(Box);
 const MotionVStack = motion(VStack);
 
 function Contact() {
-    const bgColor = useColorModeValue("brand.secondary.50", "brand.secondary.900");
-    const textColor = useColorModeValue("brand.secondary.800", "brand.secondary.100");
-    const primaryColor = useColorModeValue("brand.primary.500", "brand.primary.300");
-    const accentColor = useColorModeValue("brand.accent.500", "brand.accent.300");
-    const cardBg = useColorModeValue("white", "brand.secondary.800");
-    const inputBg = useColorModeValue("brand.secondary.100", "brand.secondary.700");
+    const bgColor = "gray.900";
+    const textColor = "gray.100";
+    const primaryColor = "blue.400";
+    const accentColor = "purple.400";
+    const cardBg = "gray.800";
+    const inputBg = "gray.700";
 
     const socialLinks = [
         {
@@ -21,17 +21,17 @@ function Contact() {
         },
         {
             icon: FaGithub,
-            url: "https://github.com/joneirocha",
+            url: "https://github.com/joneireis",
             label: "GitHub",
         },
         {
             icon: FaTwitter,
-            url: "https://twitter.com/joneirocha",
+            url: "https://x.com/joneireis",
             label: "Twitter",
         },
         {
             icon: FaEnvelope,
-            url: "mailto:jonei@example.com",
+            url: "mailto:jonei@me.com",
             label: "Email",
         },
     ];

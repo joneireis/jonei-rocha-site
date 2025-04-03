@@ -12,10 +12,10 @@ function Footer() {
     const borderColor = "blue.700";
 
     const socialLinks = [
-        { icon: FaGithub, url: "https://github.com/joneirocha", label: "GitHub" },
+        { icon: FaGithub, url: "https://github.com/joneireis", label: "GitHub" },
         { icon: FaLinkedin, url: "https://linkedin.com/in/joneirocha", label: "LinkedIn" },
-        { icon: FaTwitter, url: "https://twitter.com/joneirocha", label: "Twitter" },
-        { icon: FaEnvelope, url: "mailto:jonei@example.com", label: "Email" },
+        { icon: FaTwitter, url: "https://x.com/joneireis", label: "Twitter" },
+        { icon: FaEnvelope, url: "mailto:jonei@me.com", label: "Email" },
     ];
 
     return (
